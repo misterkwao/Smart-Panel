@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/Assest/Images/photo_5_2023-12-05_11-21-53.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff; /* Text color on top of the image */
+      font-family: poppins, sans-serif;
+      margin: 0;
+      font-size: 30px;
+      
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding:20px ;
+    background: rgba(78, 74, 74, 0.15);
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
